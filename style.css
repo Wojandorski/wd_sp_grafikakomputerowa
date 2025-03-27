@@ -37,7 +37,14 @@ body {
     background-color: #ddd;
     color: black;
 }
-  
+
+#example {
+    float: left;
+    padding: 25px;
+    width: 33.33%;
+    height: 375px;
+}
+
 #page {
     width: 100%;
     height: 100%;
