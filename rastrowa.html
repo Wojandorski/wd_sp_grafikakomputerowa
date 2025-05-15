@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylerast.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1>Grafika Rastrowa</h1>
+        </div>
+
+        <div id="navigationbar">
+            <a href="index.html">Strona Główna</a>
+            <a href="#">Grafika Rastrowa</a>
+            <a href="wektorowa.html">Grafika Wektorowa</a>
+            <a href="trojwymiar.html">Grafika Trójwymiarowa</a>
+            <a id="navright" href="kompedium.html">Kompedium</a>
+        </div>
+
+        <div id="page">
+            <div id="side">
+                <p>1. Co to grafika rastrowa?</p>
+                <p>2. Charakterystyka grafiki rastrowej</p>
+                <p>3. Jakość obrazu a wielkość pliku</p>
+                <p>4. Rozmiary i rozdzielczośću</p>
+            </div>
+            <div id="main">
+                <h3><b>Co to grafika rastrowa?</b></h3>
+                <p><b>Grafika rastrowa</b> (potocznie <b>bitmapa</b>) – prezentacja obrazu za pomocą mapy punktów na siatce siatki odpowiednio kolorowanych <b>pikseli</b> na <b>monitorze komputera, drukarce</b> lub innym <b>urządzeniu wyjściowym</b>. W systemach komputerowych grafika rastrowa jest przechowywana w sposób <b>skompresowany</b> albo nieskompresowany w wielu formatach <b>plików graficznych (JPG, PNG, JPEG, WEBP itd.)</b>. Do tworzenia lub edytowania grafiki rastrowej można wykożystać programy takie jak: <b>Paint.NET, Gimp, Adobe Photoshop, Photopea, Krita</b> itp.</p>
+                <br>
+                <br>
+                <img src="rast_example1.jpg" alt="" id="example">
+                <img src="rast_example2.jpg" alt="" id="example">
+                <img src="rast_example3.jpg" alt="" id="example">
+                <br>
+                <br>
+                <h3><b>Charakterystyka grafiki rastrowej</b></h3>
+                <p>Bez zastosowania kompresji kolor każdego piksela jest definiowany pojedynczo, tworząc <b>mapę bitową</b>, którą charakteryzują trzy podstawowe liczby – wysokość i szerokość <b>mapy bitowej</b>, liczone w pikselach, oraz <b>kolor</b> w danym <b>trybie koloru</b>. Obrazki z głębią kolorów <b>RGB</b> często składają się z kolorowych kwadratów zdefiniowanych przy pomocy <b>trzech bajtów</b> – jeden bajt (czyli 8 bitów) na składową czerwoną koloru, jeden na zieloną i jeden na składową niebieską. Obrazki o mniejszej liczbie kolorów potrzebują mniej informacji (bitów) na piksel, np. obrazek jedynie w kolorach czarnym i białym wymaga tylko jednego bitu na każdy piksel (zwany jest wtedy bitmapą). </p>
+                <center><img src="raster_comprasion.jpg" alt="" height="250px"></center>
+                <br>
+                <h3><b>Jakość obrazu a wielkość pliku</b></h3>
+                <p>Jakość obrazka rastrowego jest określana przez <b>całkowitą liczbę pikseli</b> (wielkość obrazu) oraz ilości informacji przechowywanych w <b>każdym pikselu</b>. Na przykład obrazek posiadający 24 bity informacji o kolorze może przedstawić <b>łagodniejsze</b> cieniowanie od obrazka posiadającego jedynie 16 bitów informacji na każdy piksel, ale też nie pokaże łagodniejszego cieniowania od obrazka mającego 48 bitów na piksel. Podobnie, obrazek o wymiarach 640 × 480 pikseli (zawierający 307 200 pikseli) będzie wyglądał nierówno i chropowato w porównaniu do obrazka o wymiarach 1280 × 1024 (1 310 720 pikseli). </p>
+                <br>
+                <h3><b>Rozmiary i rozdzielczość</b></h3>
+                <p><b>Rozmiar</b> obrazka rastrowego nie może zostać zwiększony bez zmniejszenia jego ostrości. Jest to cecha nieznana grafice wektorowej, którą łatwo można skalować, dostosowując jej wielkość do urządzenia, na którym jest wyświetlany obraz. Grafika rastrowa jest jednak bardziej użyteczna od wektorowej do zapisywania zdjęć i realistycznych obrazów, podczas gdy grafika wektorowa jest częściej używana do obrazów tworzonych z figur geometrycznych oraz prezentacji tekstu. </p>
+            </div>
+        </div>
+    </body>
+</html>
